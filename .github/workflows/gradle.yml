@@ -30,13 +30,13 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         
-    - name: Build and Push Docker Image    
-      uses: mr-smithers-excellent/docker-build-push@v4
-      with:
-        image: gathua/docker-demo:tagname
-        registry: docker.io
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+#     - name: Build and Push Docker Image    
+#       uses: mr-smithers-excellent/docker-build-push@v4
+#       with:
+#         image: gathua/docker-demo:tagname
+#         registry: docker.io
+#         username: ${{ secrets.DOCKER_USERNAME }}
+#         password: ${{ secrets.DOCKER_PASSWORD }}
         
     
 
